@@ -31,7 +31,7 @@ function johnLennonFacts(facts)
   
   console.log("32");
   
-  while (i < clone.length - 1)
+  while (i++ < clone.length - 1)
   {
     clone[i] += "!!!";
   }
