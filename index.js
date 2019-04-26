@@ -23,7 +23,7 @@ function johnLennonFacts(facts)
   var i = 0;
   var clone = facts.slice(0);
   
-  while (i < clone.length-1)
+  while (i < clone.length - 1)
   {
     clone[i] += "!!!";
   }
