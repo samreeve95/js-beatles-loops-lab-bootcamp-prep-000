@@ -38,4 +38,6 @@ function iLoveTheBeatles(x)
   {
     empty.push("I love the Beatles!");
   } while ( x++ < 15 )
+  
+  return empty;
 }
