@@ -13,7 +13,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 function theBeatlesPlay(musicians, instruments)
 {
   var empty = [];
-  
+  var x = 0;
   console.log("17");
   
   for (x=0;x<musicians.length;x++)
