@@ -31,7 +31,7 @@ function johnLennonFacts(facts)
   {
     clone[i] += "!!!";
   }
-  
+  console.log("here");
   return clone;
 }
 
