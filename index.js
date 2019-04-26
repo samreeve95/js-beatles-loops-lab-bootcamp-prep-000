@@ -29,11 +29,13 @@ function johnLennonFacts(facts)
   var i = 0;
   var clone = facts.slice(0);
   
+  console.log("32");
+  
   while (i < clone.length - 1)
   {
     clone[i] += "!!!";
   }
-  console.log("here");
+  console.log("38");
   return clone;
 }
 
