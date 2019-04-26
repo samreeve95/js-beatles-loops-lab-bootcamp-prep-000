@@ -25,6 +25,17 @@ function johnLennonFacts(facts)
   
   while (i < clone.length-1)
   {
-    clone[i] += "!";
+    clone[i] += "!!!";
   }
+  
+  return clone;
+}
+
+function iLoveTheBeatles(x)
+{
+  var empty = [];
+  do 
+  {
+    empty.push("I love the Beatles!");
+  } while ( x++ < 15 )
 }
